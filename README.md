@@ -1,8 +1,18 @@
 ![logo300](https://user-images.githubusercontent.com/36128807/132955389-48a67107-e88e-48fe-8058-057326f39fb7.png)
 
-# Getting Started with Create React App
+# Keryx Messenger
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Keryx is a browser mobile chat applications made with [React](https://github.com/facebook/create-react-app) (still work in progress...)
+Some screenshots of the project below.
+
+![Screenshot_1](https://user-images.githubusercontent.com/36128807/132955506-2d9b9c65-eb4c-4e3a-91f2-f5cb97cb5f0d.jpg)
+
+![Screenshot_2](https://user-images.githubusercontent.com/36128807/132955501-4d96d03d-f5f7-4bbb-a363-fd08f6dfce3c.jpg)
+
+
+# Getting Started with Create React](https://reactjs.org/) App
+
+This project was bootstrapped with Create React App.
 
 ## Available Scripts
 
