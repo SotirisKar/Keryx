@@ -1,0 +1,222 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.login .loginContainer button {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 15px 0;
+  margin-top: 0px;
+  color: #ffffff;
+  font-size: 17px;
+  letter-spacing: 1px;
+  background-color: #2b3c58;
+  cursor: pointer;
+}
+
+.login {
+  width: 100%;
+  display: flex;
+}
+
+.login .loginContainer {
+  padding: 0 60px;
+  margin: 100px auto;
+  width: 100%;
+  max-width: 500px;
+  min-height: 520px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #212121;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  .login .loginContainer {
+    padding: 0 50px;
+    margin: 25px auto;
+    width: 100%;
+    max-width: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #212121;
+  }
+}
+
+.login .loginContainer .icon{
+  float: center;
+  margin: -5px auto;
+  width: 170px;
+  height: 170px;
+}
+
+.login .loginContainer .title-name{
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+  letter-spacing: .5px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+}
+.login .loginContainer .description{
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  letter-spacing: .5px;
+  color: #a5a6a8;
+  line-height: 18px;
+  text-align: center;
+  font-size: 15px;
+  margin: 7px 0 15px 0;
+}
+
+.login .loginContainer input {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 100%;
+  border: none;
+  outline: none;
+  color: #a5a6a8;
+  font-size: 19px;
+  padding: 8px;
+  margin-bottom: -5px;
+  margin-top: 20px;
+  background-color: #212121;
+  border: 1px solid;
+  text-indent: 7px;
+  border-radius: 10px;
+  border-color: #2e2e2e;
+  letter-spacing: .5px;
+}
+.login .loginContainer input:focus, textarea:focus {
+  border: 2px solid #2b3c58;
+}
+
+.floating-email{
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  pointer-events: none;
+  transition: 0.2s ease all;
+  color: #a5a6a8;
+  font-size: 17px;
+  margin-top: -28px;
+  margin-left: 15px;
+}
+
+.floating-password{
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  pointer-events: none;
+  transition: 0.2s ease all;
+  color: #a5a6a8;
+  font-size: 17px;
+  margin-top: -29px;
+  margin-left: 15px;
+}
+
+.password-input:focus ~ .floating-password,
+input:not(:focus):valid ~ .floating-password {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  position:relative;
+  width: 80px;
+  text-align: center;
+  background-color: #212121;
+  color: #2b3c58;
+  font-weight: 800;
+  bottom: 25px;
+  left: 2px;
+  font-size: 13px;
+  opacity: 1;
+}
+
+.email-input:focus ~ .floating-email,
+input:not(:focus):valid ~ .floating-email {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  position:relative;
+  width: 100px;
+  color: #2b3c58;
+  font-weight: 800;
+  text-align: center;
+  background-color: #212121;
+  bottom: 25px;
+  left: 2px;
+  font-size: 13px;
+  opacity: 1;
+}
+
+.login .loginContainer .btnContainer {
+  width: 100%;
+  padding: 25px 0;
+}
+
+.login .loginContainer .btnContainer p {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 15px 0;
+  text-align: right;
+  color: #a5a6a8;
+}
+
+.login .loginContainer .btnContainer p span {
+  color: rgb(255, 255, 255);
+  margin-right: -20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+
+.login .loginContainer .errorMsg {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: red;
+  font-size: 16px;
+  text-align: center;
+  line-height: 20px;
+  margin: 5px 0;
+}
+
+.login .loginContainer .btnContainer .or{
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center; 
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 0;
+  margin: 30px 0;
+  border-bottom: 1px solid #2e2e2e;
+  width: 100%; 
+}
+.login .loginContainer .btnContainer .or span { 
+  width: 100%; 
+  background: #212121; 
+  color: rgb(124, 124, 124);
+  font-size: 18px;
+  padding:0 10px; 
+}
+
+.google{
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: #fff;
+  border-color: #000;
+  color: #000;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 17px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  text-align: center;
+  text-indent: -10%;
+}
+.google-icon{
+  position:static;
+  float: left;
+  margin: -3px 0;
+  width: 42px;
+  height: 27px;
+}
