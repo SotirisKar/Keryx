@@ -4,11 +4,12 @@
 
 Keryx is a browser mobile chat applications made with [React](https://github.com/facebook/create-react-app) (still work in progress...)
 Some screenshots of the project below.
-
-![Screenshot_1](https://user-images.githubusercontent.com/36128807/132955506-2d9b9c65-eb4c-4e3a-91f2-f5cb97cb5f0d.jpg)
-
-![Screenshot_2](https://user-images.githubusercontent.com/36128807/132955501-4d96d03d-f5f7-4bbb-a363-fd08f6dfce3c.jpg)
-
+<p align="center">
+  ![Screenshot_1](https://user-images.githubusercontent.com/36128807/132955506-2d9b9c65-eb4c-4e3a-91f2-f5cb97cb5f0d.jpg)
+</p>
+<p align="center">
+  ![Screenshot_2](https://user-images.githubusercontent.com/36128807/132955501-4d96d03d-f5f7-4bbb-a363-fd08f6dfce3c.jpg)
+</p>
 
 # Getting Started with Create React](https://reactjs.org/) App
 
