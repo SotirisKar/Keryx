@@ -3,15 +3,14 @@
 <h1 align="center">Keryx Messenger</h1>
 <p>Keryx is a messaging app for simple communication with friends. made with <a href="https://reactjs.org/">React</a></p>
 <h1>Contributing Code</h1>
-<p>If the project interest you feel free to clone the project make any changes,</p>
-<p>fix bugs and make the ui more responsive and flexible.</p>
+<p>If the project interest you feel free to clone the project make any changes,<br> fix bugs and make the ui more responsive and flexible.</p>
 
-<h1 align="center">Screenshots of the project</h1>
+<h1>Screenshots of the project</h1>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/36128807/132955506-2d9b9c65-eb4c-4e3a-91f2-f5cb97cb5f0d.jpg"/>
 </p>
-<p >
-  <img align="center" src="https://user-images.githubusercontent.com/36128807/132955782-c374bac4-0cf7-4a2b-b26b-bd039645d942.png"/>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/36128807/132955782-c374bac4-0cf7-4a2b-b26b-bd039645d942.png"/>
 </p>
 
 # Getting Started with Create React App
