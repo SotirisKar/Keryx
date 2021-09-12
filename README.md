@@ -6,7 +6,7 @@
 </p>
 <h1>Contributing Code</h1>
 <p>If the project interest you feel free to clone the project make any changes,<br>
-  fix bugs and make the ui more responsive and flexible.
+  fix bugs and make the UI more responsive and flexible.
 </p>
 
 <h1>Screenshots of the project</h1>
