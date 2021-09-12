@@ -4,7 +4,7 @@
 
 <p align="center">Keryx is a browser mobile chat applications made with [React](https://github.com/facebook/create-react-app)</p>
 
-# Screenshots
+<h1 align="center">Screenshots</h1>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/36128807/132955506-2d9b9c65-eb4c-4e3a-91f2-f5cb97cb5f0d.jpg"/>
 </p>
