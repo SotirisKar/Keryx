@@ -1,9 +1,13 @@
 ![logo300](https://user-images.githubusercontent.com/36128807/132955389-48a67107-e88e-48fe-8058-057326f39fb7.png)
 
 <h1 align="center">Keryx Messenger</h1>
-<p>Keryx is a messaging app for simple communication with friends. made with <a href="https://reactjs.org/">React</a></p>
+<p>Keryx is a messaging app for simple communication with friends.<br>
+  made with <a href="https://reactjs.org/">React</a>
+</p>
 <h1>Contributing Code</h1>
-<p>If the project interest you feel free to clone the project make any changes,<br> fix bugs and make the ui more responsive and flexible.</p>
+<p>If the project interest you feel free to clone the project make any changes,<br>
+  fix bugs and make the ui more responsive and flexible.
+</p>
 
 <h1>Screenshots of the project</h1>
 <p align="center">
