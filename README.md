@@ -2,7 +2,7 @@
 
 <h1 align="center">Keryx Messenger</h1>
 
-<p align="center">Keryx is a browser mobile chat applications made with <a href="https://github.com/facebook/create-react-app">React</a></p>
+<p align="center">Keryx is a browser mobile chat applications made with <a href="https://reactjs.org/">React</a></p>
 
 <h1 align="center">Screenshots of the project</h1>
 <p align="center">
