@@ -2,7 +2,7 @@
 
 <h1 align="center">Keryx Messenger</h1>
 <p>Keryx is a messaging app for simple communication with friends. made with <a href="https://reactjs.org/">React</a></p>
-<h1 align="center">Contributing Code</h1>
+<h1>Contributing Code</h1>
 <p>If the project interest you feel free to clone the project make any changes,</p>
 <p>fix bugs and make the ui more responsive and flexible.</p>
 
