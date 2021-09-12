@@ -1,6 +1,6 @@
 ![logo300](https://user-images.githubusercontent.com/36128807/132955389-48a67107-e88e-48fe-8058-057326f39fb7.png)
 
-<h1 align="center">Keryx Messenger</h1>
+<h1>Keryx Messenger</h1>
 <p>Keryx is a messaging app for simple communication with friends.<br>
   made with <a href="https://reactjs.org/">React</a>
 </p>
