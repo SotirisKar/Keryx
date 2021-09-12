@@ -1,6 +1,6 @@
 ![logo300](https://user-images.githubusercontent.com/36128807/132955389-48a67107-e88e-48fe-8058-057326f39fb7.png)
 
-# Keryx Messenger
+<h1 align="center">Keryx Messenger</h1>
 
 Keryx is a browser mobile chat applications made with [React](https://github.com/facebook/create-react-app) (still work in progress...)
 
